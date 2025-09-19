@@ -10,3 +10,6 @@ total_a_pagar_1 = monto_1 - descuento_1
 # Llamada con porcentaje personalizado (15%)
 descuento_2 = calcular_descuento(monto_2, 15)
 total_a_pagar_2 = monto_2 - descuento_2
+# Mostrar resultados
+print(f"Compra 1: Monto = ${monto_1:.2f}, Descuento = ${descuento_1:.2f}, Total a pagar = ${total_a_pagar_1:.2f}")
+print(f"Compra 2: Monto = ${monto_2:.2f}, Descuento = ${descuento_2:.2f}, Total a pagar = ${total_a_pagar_2:.2f}")
